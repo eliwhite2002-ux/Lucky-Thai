@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Warm Thai food truck brand placeholder">
+  <rect width="1600" height="1000" fill="#7c281d"/>
+  <path d="M0 700c220-140 420-170 640-90s410 70 620-70c120-80 230-110 340-120v580H0z" fill="#e9a930"/>
+  <circle cx="1240" cy="240" r="170" fill="#768c36"/>
+  <circle cx="1285" cy="215" r="54" fill="#fff2d7"/>
+  <path d="M260 315h620c75 0 135 60 135 135v145H125V450c0-75 60-135 135-135z" fill="#fffaf2"/>
+  <path d="M210 595h850v120H210z" fill="#231f1b"/>
+  <circle cx="330" cy="735" r="74" fill="#231f1b"/>
+  <circle cx="860" cy="735" r="74" fill="#231f1b"/>
+  <text x="255" y="505" font-family="Arial, sans-serif" font-size="92" font-weight="700" fill="#b93c25">Lucky Thai</text>
+</svg>

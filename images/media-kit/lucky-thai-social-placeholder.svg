@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Lucky Thai social share placeholder">
+  <rect width="1200" height="630" fill="#fffaf2"/>
+  <rect x="60" y="60" width="1080" height="510" rx="28" fill="#b93c25"/>
+  <circle cx="930" cy="180" r="95" fill="#e9a930"/>
+  <text x="120" y="260" font-family="Arial, sans-serif" font-size="92" font-weight="700" fill="#ffffff">Lucky Thai</text>
+  <text x="124" y="350" font-family="Arial, sans-serif" font-size="42" fill="#fff6e5">Thai Food Truck in Eugene, Oregon</text>
+  <text x="124" y="430" font-family="Arial, sans-serif" font-size="34" fill="#fff6e5">Order direct through Square</text>
+</svg>
