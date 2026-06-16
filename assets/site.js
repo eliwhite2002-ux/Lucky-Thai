@@ -65,14 +65,24 @@ function applyOrderButtons() {
 }
 
 function applyContactLinks() {
-  setText("[data-phone-text]", config.phone, "Phone coming soon");
-  setText("[data-email-text]", config.email, "Email coming soon");
-  setHref("[data-phone-link]", hasValue(config.phone) ? `tel:${config.phone.replace(/[^\d+]/g, "")}` : "");
-  setHref("[data-email-link]", hasValue(config.email) ? `mailto:${config.email}` : "");
+  const hasPhone = hasValue(config.phone);
+  const hasEmail = hasValue(config.email);
+  const hasInstagram = hasValue(config.instagramUrl);
+  const hasFacebook = hasValue(config.facebookUrl);
+
+  setText("[data-phone-text]", config.phone, "");
+  setText("[data-email-text]", config.email, "");
+  setHref("[data-phone-link]", hasPhone ? `tel:${config.phone.replace(/[^\d+]/g, "")}` : "");
+  setHref("[data-email-link]", hasEmail ? `mailto:${config.email}` : "");
   setHref("[data-instagram-link]", config.instagramUrl);
   setHref("[data-facebook-link]", config.facebookUrl);
 
-  setHidden("[data-social-note]", hasValue(config.instagramUrl) || hasValue(config.facebookUrl));
+  setHidden("[data-phone-link]", !hasPhone);
+  setHidden("[data-email-link]", !hasEmail);
+  setHidden("[data-instagram-link]", !hasInstagram);
+  setHidden("[data-facebook-link]", !hasFacebook);
+  setHidden("[data-social-note]", hasInstagram || hasFacebook);
+  setHidden("[data-contact-note]", hasPhone || hasEmail);
 }
 
 function applyLocation() {
