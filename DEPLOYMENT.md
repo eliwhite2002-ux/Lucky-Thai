@@ -6,7 +6,13 @@ Vercel
 
 ## Live Review URL
 
-https://lucky-thai.vercel.app
+https://lucky-thai-git-main-eli-whites-projects.vercel.app
+
+Latest deployment URL:
+
+https://lucky-thai-2kffpudwm-eli-whites-projects.vercel.app
+
+Do not use `https://lucky-thai.vercel.app`; it currently returns a Vercel 404 because that short alias is not attached to this project.
 
 ## GitHub Repo URL
 
